@@ -108,15 +108,15 @@ body {
 
   .video {
     background: fixed;
-    z-index: -2;
+    z-index: 3;
     position: fixed;
   }
 
   .information {
     top: 47vh;
-    height: auto;
-    z-index: 1;
     background-color: #000046;
+    height: auto;
+    z-index: -2;
     position: relative;
   }
 }
